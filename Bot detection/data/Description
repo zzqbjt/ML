@@ -1,0 +1,8 @@
+File Desciption
+edge_index.pt: shape: [2, # edges] 
+edge_type.pt: shape: [# edges] with 0 denotes edge type 0 and 1 denotes edge type 1
+des_tensor.pt: shape: [# nodes, d] processed user description feature described in BotRGCN
+tweets_tensor.pt: shape: shape: [# nodes, d] processed user tweet feature described in BotRGCN
+node.json: contains the user metadata, numerical and categorical data
+train/val/test_index.pt: node indexes in train/val/test settings
+label.csv: contains the label of each user
